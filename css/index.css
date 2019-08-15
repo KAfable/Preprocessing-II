@@ -189,6 +189,22 @@ nav ul a {
   font-weight: 550;
   text-decoration: none;
 }
+@media (max-width: 500px) {
+  nav {
+    align-items: center;
+    flex-flow: column;
+    margin: 15px auto;
+  }
+  nav h1 {
+    font-size: 3rem;
+    padding-bottom: 10px;
+  }
+  nav ul {
+    width: 100%;
+    justify-content: space-around;
+    padding: 0;
+  }
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
