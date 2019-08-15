@@ -65,4 +65,35 @@
       }
     }
   }
+  @media @mobile {
+    margin: 0px 15px;
+    width: inherit;
+    .bus-wrapper {
+      width: 100%;
+      padding-bottom: 10px;
+    }
+    .content-section {
+      flex-flow: column;
+      .text-content {
+        width: inherit;
+      }
+      .img-content {
+        width: inherit;
+      }
+    }
+    .content-section.inverse-content {
+      flex-flow: column-reverse;
+    }
+    .content-destination {
+      margin: 0;
+      width: inherit;
+    }
+    .content-pick {
+      flex-flow: column;
+      .destination {
+        width: inherit;
+        margin: 0px 30px 30px;
+      }
+    }
+  }
 } // home

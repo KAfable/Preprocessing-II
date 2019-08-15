@@ -277,3 +277,36 @@ nav ul a {
   padding: 10px 0px;
   font-size: 2rem;
 }
+@media (max-width: 500px) {
+  .home {
+    margin: 0px 15px;
+    width: inherit;
+  }
+  .home .bus-wrapper {
+    width: 100%;
+    padding-bottom: 10px;
+  }
+  .home .content-section {
+    flex-flow: column;
+  }
+  .home .content-section .text-content {
+    width: inherit;
+  }
+  .home .content-section .img-content {
+    width: inherit;
+  }
+  .home .content-section.inverse-content {
+    flex-flow: column-reverse;
+  }
+  .home .content-destination {
+    margin: 0;
+    width: inherit;
+  }
+  .home .content-pick {
+    flex-flow: column;
+  }
+  .home .content-pick .destination {
+    width: inherit;
+    margin: 0px 30px 30px;
+  }
+}
